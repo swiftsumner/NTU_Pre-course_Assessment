@@ -26,5 +26,6 @@ def string_reverse(s):
 
 r = string_reverse('Hello World')
 print(r)
+
 r = string_reverse('Python')
 print(r)
