@@ -30,5 +30,6 @@ def update_dictionary(dct, key, value):
 
 new_dct = update_dictionary({}, "name", "Alice")
 print(new_dct)
+
 new_dct = update_dictionary({"age": 25}, "age", 26)
 print(new_dct)
