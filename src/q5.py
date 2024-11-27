@@ -12,7 +12,7 @@ def check_divisibility(num, divisor):
     # check both num and divisor to see whether they're numeric 
     if type(num) not in numeric or type(divisor) not in numeric:
         print('Both num and divisor must be numeric')
-        return -1
+        return
     
     # get the remainder using the modulo operator %
     # if divisor is 0, the ZeroDivisionError will be returned automatically
