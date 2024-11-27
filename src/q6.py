@@ -8,7 +8,7 @@ def find_first_negative(lst):
     
     if type(lst) != list:
         print('%s is not a list' % lst)
-        return -1
+        return
     
     # get number of items in the list
     list_length = len(lst)
