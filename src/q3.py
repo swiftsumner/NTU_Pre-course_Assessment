@@ -8,7 +8,7 @@ def update_dictionary(dct, key, value):
     
     if type(dct) != dict:
         print('%s is not a dictionary' % dct)
-        return -1
+        return
     
     # get original value from dct if it exists
     x = dct.get(key)
