@@ -10,7 +10,7 @@ def find_and_replace(lst, find_val, replace_val):
     
     if type(lst)!=list:
         print('A list must be provided. %s is not a list.' % str(lst))
-        return -1
+        return
     
     # initialize the index counter for lst
     x = 0
